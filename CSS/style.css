@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+.header {
+    background-color: #101828;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.header a img {
+    margin-left: 20px;
+}
+
+.menuItem>ul>li>a {
+    color: white;
+    margin-right: 20px;
+}
+
+.menuItem>ul>li>button {
+    margin-right: 20px;
+}
+
+.menuItem>ul>li>a:hover {
+    color: white;
+}
+
+#banners {
+    background: linear-gradient(261.99deg, #ffe3dd 2.82%, #fff8da 17.1%, rgba(255, 249, 221, 0) 31.78%, hsla(0, 100%, 90%, .04) 50.27%, rgba(255, 249, 221, .35) 67.28%, #ffeee9 77.89%, rgba(255, 238, 233, .14) 91.09%);
+}
+
+form .input-group-text {
+    height: 50px;
+}
+
+form button {
+    height: 50px;
+}
+
+
+/* form .input-group-text input {
+    border: none;
+} */
+
+.gaping form {
+    background-color: #101828;
+    padding: 30px 20px;
+}
+
+li .btn4 img {
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form-select {
+    height: 50px;
+}
+
+.img1 {
+    height: 380px;
+    border-radius: 8px;
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+
+.img1:hover {
+    transform: translateY(-10px);
+}
+
+.anchor {
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.img1 h5 {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+
+/* .anchor:hover {
+    color: red;
+} */
+
+.borders2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    background-color: red;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+}
+
+.img1:hover .borders2 {
+    transform: scale(1);
+}
+
+.banner {
+    background-color: #16181a;
+}
+
+.judiciary-item {
+    min-height: 420px;
+    background: url('https://www.lawpreptutorial.com/images/courses/courses-card-bg.webp') left center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.judiciary-overly {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(106.78deg, #ffefab 10.51%, #f1c4c4 80.72%);
+    transition: all 0.5s;
+}
+
+.judiciary-item:hover .judiciary-overly {
+    opacity: 0;
+}
+
+.judiciary-overly h2 {
+    text-align: right;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.judiciary-content {
+    position: absolute;
+    bottom: 50px;
+    padding-left: 20px;
+    color: white;
+    z-index: 99;
+}
+
+.judiciary-item button {
+    border: none;
+    margin: 5px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.judiciary-item button:hover {
+    background-color: red;
+    color: white;
+}
+
+.color p {
+    font-size: 14px;
+    color: #515254;
+    font-family: "Sora", sans-serif;
+}
+
+.div2 {
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    background-color: #ffdc44;
+}
+
+#banner4 {
+    background-color: #101828;
+    padding: 20px;
+}
+
+.div6 img {
+    border: 1px solid #20303d;
+    height: 300px;
+}
+
+
+/* .div4 img {
+    margin-top: 20px;
+}
+ */
+
+.div7 h4 {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.div7 h4:hover {
+    color: red;
+}
+
+.div4 {
+    overflow: hidden;
+}
+
+.div4 img {
+    transition: 0.5s;
+}
+
+.div4 img:hover {
+    transform: scale(1.1);
+}
+
+.div5 button {
+    display: table;
+    margin: auto;
+    border: 0.5px solid red;
+    border-radius: 4px;
+    color: red;
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+.div5 button:hover {
+    background-color: red;
+    color: white;
+}
+
+#bannerAccordion {
+    background-color: #f9f8fd;
+    padding: 40px;
+}
+
+#footer {
+    background-color: #101828;
+    padding: 20px;
+}
+
+.icon p i {
+    font-size: 20px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.para li {
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    padding: 10px;
+}
+
+.borders {
+    position: absolute;
+    height: 0.5px;
+    width: 30%;
+    background-color: white;
+    top: 80%;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: left;
+}
+
+.para li:hover .borders2 {
+    transform: scale(1);
+}
+
+.icon p .fa-telegram:hover {
+    color: #0adcdc;
+    transform: rotate(360deg);
+}
+
+.icon p .fa-facebook:hover {
+    color: #0a50dc;
+    transform: rotate(360deg);
+}
+
+.icon p .fa-square-instagram:hover {
+    color: #750858;
+    transform: rotate(360deg);
+}
+
+.icon p .fa-youtube:hover {
+    color: #dd180a;
+    transform: rotate(360deg);
+}
+
+#sliderItem .active span {
+    width: 50px;
+    background-color: red;
+}
+
+#sliderItem1 .active span {
+    width: 50px;
+    background-color: #e3dede;
+}
